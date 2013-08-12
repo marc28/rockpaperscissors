@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang ="en"> <!--Note the ng-app included. Thats a DIRECTIVE in Angular JS-->
+<head>
+	<meta charset="utf-8"/>
+	<title>Rock Scissors Paper</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="mainRock.css">
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body>
+	<div id="mainDiv">
+	
+		<h1>Rock Scissors Paper</h1>		
+
+		<div id="buttonPosition">
+			<input id="playButton" type="button" value="PLAY" class="btn btn-large btn-primary">
+		</div>
+
+		<div id="choose"></div>
+
+		<div id="images">
+			<div id="one"><img src="rock.jpg" title="rock" Onclick="rock()"></div> 
+			<div id="two"><img src="scissors.jpg" title="scissors" Onclick="scissors()"></div>
+			<div id="three"><img src="paper.jpg" title="paper" Onclick="paper()"></div>
+		</div>
+
+		<div id="winnerArea"></div>
+
+
+	</div>
+
+
+
+
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="game2.js"></script>
+<script type="js/bootstrap.js"></script>
+
+</body>
+</html>
